@@ -6,19 +6,17 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
+title:            Alex's Blog
 tagline:          'The Jekyll Butler'
 description:      'Base theme for Jekyll themes by @mdo.'
-url:              http://getpoole.com
+url:              http://blckshrk.github.io/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Alexandre Bonhomme'
+  url:            https://alexandrebonhomme.com
 
 paginate:         1
 
 # Custom vars
 version:          1.0.0
 
-github:
-  repo:           https://github.com/poole/poole
