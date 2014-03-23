@@ -186,6 +186,9 @@ pre code {
 }
 
 /* Gist via GitHub Pages */
+.gist .gist-meta {
+	display: none; /* hide footer of Gist embed */
+}
 .gist .gist-file {
   font-family: Menlo, Monaco, "Courier New", monospace !important;
 }
@@ -197,7 +200,7 @@ pre code {
   background-color: transparent;
 }
 .gist .gist-file .gist-data {
-  font-size: .8rem !important;
+  font-size: .7rem !important;
   line-height: 1.4;
 }
 .gist code {
@@ -205,6 +208,10 @@ pre code {
   color: inherit;
   background-color: transparent;
   border-radius: 0;
+}
+.gist .highlight,
+.gist table {
+	margin-bottom: 0;
 }
 
 /* Quotes */
